@@ -11,5 +11,7 @@ Make sure you have enough disk-space on your device. The entire unzipped 16.1 se
 ## List of Comparisons
 
 
+We update the list, upon request of deletion.
+
 ## Metadata
 
