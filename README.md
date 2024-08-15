@@ -10,7 +10,7 @@ Make sure you have enough disk-space on your device. The entire unzipped 16.1 se
 
 ## List of Comparisons
 
-
+The list of comparisons can be found [here](https://cloud.ovgu.de/s/MGXi8ijXHSpsjEc).
 We update the list, if a donor request the deletion of their data.
 
 ## Metadata
