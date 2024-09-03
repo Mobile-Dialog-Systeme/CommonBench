@@ -15,15 +15,15 @@ We update the list, if a donor request the deletion of their data.
 
 ## General Information
 Composition:
-11,793 unique speakers, 
-4.7 million samples, 
-101 languages.
+- 11,793 unique speakers, 
+- 4.7 million samples, 
+- 101 languages.
 
 Gender distribution: 
-43.2% male, 
-14% female, 
-0.8% other, 
-38% undisclosed.
+- 43.2% male, 
+- 14% female, 
+- 0.8% other, 
+- 38% undisclosed.
 
 <img width="348" alt="image" src="https://github.com/user-attachments/assets/7a40771a-fd88-4ad3-9935-8fc4b2eb1b60">
 
