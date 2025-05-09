@@ -32,6 +32,24 @@ Gender distribution:
 
 <img width="348" alt="image" src="https://github.com/user-attachments/assets/7a40771a-fd88-4ad3-9935-8fc4b2eb1b60">
 
+## Citation
+
+Please cite the paper below if you make use of the Benchmark or refined Dataset:
+
+```bibtex
+
+@inproceedings{hintz24_spsc,
+  title     = {CommonBench: A larger Scale Speaker Verification Benchmark},
+  author    = {Jan Hintz and Ingo Siegert},
+  year      = {2024},
+  booktitle = {4th Symposium on Security and Privacy in Speech Communication},
+  pages     = {17--20},
+  doi       = {10.21437/SPSC.2024-3},
+}
+
+```
+
+
 
 
 
