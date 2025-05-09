@@ -13,6 +13,11 @@ Make sure you have enough disk-space on your device. The entire unzipped 16.1 se
 The list of comparisons can be found [here](https://cloud.ovgu.de/s/MGXi8ijXHSpsjEc).
 We update the list, if a donor request the deletion of their data.
 
+## List of Speakers
+
+The list of speaker IDs, corresponding languages and pirmary languages (language with most donations) can be found [here](https://cloud.ovgu.de/s/MGXi8ijXHSpsjEc).
+We update the list, if a donor request the deletion of their data.
+
 ## General Information
 Composition:
 - 11,793 unique speakers, 
