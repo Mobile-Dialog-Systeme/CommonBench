@@ -13,7 +13,6 @@ from collections import defaultdict
 import argparse
 import requests
 import tempfile
-import zipfile
 import shutil
 
 def download_comparison_files(url, temp_dir=None):
@@ -32,28 +31,9 @@ def download_comparison_files(url, temp_dir=None):
         # Determine file type from content-type or URL
         content_type = response.headers.get('content-type', '').lower()
         
-        if 'zip' in content_type or url.endswith('.zip'):
-            # Handle ZIP file
-            zip_path = Path(temp_dir) / "comparison_files.zip"
+        
             
-            print("Downloading ZIP file...")
-            with open(zip_path, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
-            
-            print("Extracting files...")
-            with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                zip_ref.extractall(temp_dir)
-            
-            # Find the CSV file in extracted contents
-            csv_files = list(Path(temp_dir).glob("**/*.csv"))
-            if not csv_files:
-                raise FileNotFoundError("No CSV files found in downloaded archive")
-            
-            # Use the first CSV file found (assuming it's the comparison file)
-            comparison_csv = csv_files[0]
-            
-        elif 'csv' in content_type or url.endswith('.csv'):
+        if 'csv' in content_type or url.endswith('.csv'):
             # Handle direct CSV file
             csv_path = Path(temp_dir) / "comparison_files.csv"
             
