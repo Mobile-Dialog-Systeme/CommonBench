@@ -1,15 +1,4 @@
-# Requirements for CommonBench Download Utilities
-
-# Core dependencies for dataset processing and downloading
 datasets>=2.14.0
-pandas>=1.5.0
 requests>=2.25.0
-
-# Progress bars and user interface
 tqdm>=4.64.0
-
-# File and path handling (usually included with Python)
-pathlib2>=2.3.0; python_version < "3.4"
-
-# Optional: For advanced analysis and metadata processing
 numpy>=1.21.0
